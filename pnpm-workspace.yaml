@@ -1,0 +1,5 @@
+packages:
+  - "Examples/**"
+  - "Packages/**"
+  - "E2E"
+  - "Documentation"

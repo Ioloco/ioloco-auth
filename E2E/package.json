@@ -1,0 +1,13 @@
+{
+  "name": "e2e",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "chromium": "pnpm exec playwright install",
+    "test": "playwright test",
+    "test:nextjs": "playwright test tests/nextjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  }
+}
