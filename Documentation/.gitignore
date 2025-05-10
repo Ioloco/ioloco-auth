@@ -4,4 +4,4 @@ pnpm-lock.yaml
 **/pnpm-lock.yaml
 dist/
 _pagefind/
-.next/
+.next/ 
