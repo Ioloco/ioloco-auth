@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "target": "ES2022",
+    "module": "ESNext",
+    "lib": ["ES2022", "DOM"],
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "baseUrl": "",
+    "paths": {
+      "@/*": ["src/*"],
+      "@Queries/*": ["src/@Queries/*"],
+      "@Types/*": ["src/@Types/*"],
+      "Oauth/*": ["src/Oauth/*"],
+      "Error/*": ["src/Error/*"]
+    },
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "__Tests__"],
+  "exclude": ["node_modules", "Examples"]
+}

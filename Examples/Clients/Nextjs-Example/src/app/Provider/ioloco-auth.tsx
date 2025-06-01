@@ -1,8 +1,8 @@
 "use client";
 
-import { createIolocoProvider } from "ioloco-auth/Client";
-import { AccessToken } from "@/app/auth/config/schemas"; // 👈 get type here
-import { clientAuthConfig } from "@/app/auth/config/client-config";
+import { createIolocoProvider } from "@ioloco/credentials/Client";
+import { AccessToken } from "@/auth/config/schemas"; // 👈 get type here
+import { clientAuthConfig } from "@/auth/config/client-config";
 
 // =====================================================================================================================
 

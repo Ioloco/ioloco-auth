@@ -17,7 +17,9 @@
     "paths": {
       "@/*": ["src/*"],
       "@App/*": ["src/app/*"],
+      "@Components/*": ["src/Components/*"],
       "@Server/*": ["src/@Server/*"],
+      "@Queries/*": ["src/@Queries/*"],
       "@Actions/*": ["src/@Actions/*"]
     },
     "plugins": [
